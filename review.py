@@ -32,7 +32,7 @@ final_prompt = prompt + ":\n" + sample_reviews
 ######################################################################################################
 
 # Your PAT (Personal Access Token) can be found in the portal under Authentification
-PAT = 'd264c5f1a9b047419752c7e50d8ec553'
+PAT = '54a0ed80ce094bfca2cd6d53a51911c0'
 # Specify the correct user_id/app_id pairings
 # Since you're making inferences outside your app's scope
 USER_ID = 'meta'
@@ -40,7 +40,7 @@ APP_ID = 'Llama-2'
 # Change these to whatever model and text URL you want to use
 MODEL_ID = 'llama2-70b-chat'
 MODEL_VERSION_ID = 'acba9c1995f8462390d7cb77d482810b'
-RAW_TEXT = prompt
+RAW_TEXT = final_prompt
 # TEXT_FILE_URL = 'https://samples.clarifai.com/negative_sentence_12.txt'
 # Or, to use a local text file, assign the url variable
 # TEXT_FILE_LOCATION = 'YOUR_TEXT_FILE_LOCATION_HERE'

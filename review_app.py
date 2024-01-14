@@ -38,7 +38,7 @@ def model_output(sample_reviews):
     # Change these to whatever model and text URL you want to use
     MODEL_ID = 'llama2-70b-chat'
     MODEL_VERSION_ID = 'acba9c1995f8462390d7cb77d482810b'
-    RAW_TEXT = prompt
+    RAW_TEXT = final_prompt
     # TEXT_FILE_URL = 'https://samples.clarifai.com/negative_sentence_12.txt'
     # Or, to use a local text file, assign the url variable
     # TEXT_FILE_LOCATION = 'YOUR_TEXT_FILE_LOCATION_HERE'
